@@ -5,10 +5,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Una pagina para crear tu propia computadora paso a paso">
+  <link rel="shortcut icon" href="assets\logo.png">
   <title>Gaming Innovate</title>
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="general.css">
   <link rel="stylesheet" href="main.css">
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
 </head>
 
 <body>
@@ -16,14 +20,26 @@
   <!-- NAV -->
   <nav>
     <a class="logo" href="#">
-      <img src="" alt="logo de Gaming Innovate">
+      <img src="assets\logo.png" alt="logo de Gaming Innovate">
       <p>Gaming Innovate</p>
     </a>
   </nav>
 
   <!-- MAIN -->
   <main>
-    <section class="main__sidebar"></section>
+    <section class="main__sidebar">
+      <div class="sidebar__mensaje">
+        <p>
+          ¡Bienvenido al paraíso de los jugadores! En nuestra página, descubrirás el poder de crear tu propia
+          computadora gamer de ensueño, pieza por pieza. ¡No esperes más y desata todo el potencial de tus juegos con
+          nuestra selección de componentes de alta gama! ¡Arma tu máquina perfecta y lleva tu experiencia de juego al
+          siguiente nivel!</p>
+      </div>
+      <div class="sidebar__carrito">
+        <p id="total"></p>
+        <div class="carrito__content"></div>
+      </div>
+    </section>
     <section class="main__content" id="content"></section>
 
   </main>
@@ -41,7 +57,7 @@
     </section>
     <section class="footer__col">
       <a class="logo" href="#">
-        <img src="" alt="Logo de Gaming Innovate">
+        <img src="assets\logo.png" alt="Logo de Gaming Innovate">
         <p>Gaming Innovate</p>
       </a>
     </section>
@@ -53,7 +69,7 @@
       </ul>
     </section>
   </footer>
-
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
   <script src="scripts/main.js" type="module"></script>
 </body>
 

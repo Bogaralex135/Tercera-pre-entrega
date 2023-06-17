@@ -35,6 +35,8 @@ nav .logo {
   text-align: center;
   text-decoration: none;
   color: var(--Text-color-Title);
+  width: 48px;
+  height: 48px;
 }
 
 /* MAIN */
@@ -44,9 +46,17 @@ main {
   flex-direction: row;
   justify-content: space-between;
   width: calc(100% - 400px);
+
   margin: 0 auto;
   background-color: var(--BG-Secondary);
   height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    width: 100%;
+  }
+
 }
 
 /* FOOTER */

@@ -47,7 +47,7 @@ const NZXT_Kraken_X73 = new Component(
   '../../assets/img/Dissipators/NZXT_Kraken_X73.png'
 )
 
-export const disipadores = [
+export const Disipador = [
   Noctua_NH_D15,
   be_Quiet_Dark_Rock_Pro_4,
   Corsair_iCUE_H150i_ELITE_CAPELLIX,
@@ -56,4 +56,4 @@ export const disipadores = [
   NZXT_Kraken_X73,
 ]
 
-export default disipadores
+export default Disipador

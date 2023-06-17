@@ -47,7 +47,7 @@ const AMD_Ryzen_9_5900X = new Component(
   '../../assets/img/CPU/ryzen9.png'
 )
 
-export const procesadores = [
+export const Procesador = [
   Intel_Core_i5_11400F,
   AMD_Ryzen_5_5600X,
   Intel_Core_i7_11700K,
@@ -55,4 +55,4 @@ export const procesadores = [
   Intel_Core_i9_11900K,
   AMD_Ryzen_9_5900X,
 ]
-export default procesadores
+export default Procesador

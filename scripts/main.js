@@ -1,8 +1,8 @@
-import { procesadores } from './Componentes/CPU.js'
-import { disipadores } from './Componentes/Dissipators.js'
-import { tarjetasMadre } from './Componentes/MotherBoard.js'
+import { listaCategorias } from './carrito.js'
 import { RenderizarProducto } from './RenderizarProducto.js'
 
-RenderizarProducto(procesadores)
-RenderizarProducto(disipadores)
-RenderizarProducto(tarjetasMadre)
+const [Procesador, Disipador, Tarjeta_Madre] = listaCategorias
+
+RenderizarProducto(Procesador, 1)
+RenderizarProducto(Disipador, 2)
+RenderizarProducto(Tarjeta_Madre, 3)

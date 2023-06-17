@@ -8,37 +8,43 @@ const NVIDIA_GeForce_RTX_3080 = new Component(
   id.generarID(),
   'NVIDIA GeForce RTX 3080',
   700,
-  'GPU'
+  'GPU',
+  '../../assets/img/GPU/NVIDIA_GeForce_RTX_3080.png'
 )
 const AMD_Radeon_RX_6800_XT = new Component(
   id.generarID(),
   'AMD Radeon RX 6800 XT',
   650,
-  'GPU'
+  'GPU',
+  '../../assets/img/GPU/AMD_Radeon_RX_6800_XT.png'
 )
 const NVIDIA_GeForce_RTX_3070 = new Component(
   id.generarID(),
   'NVIDIA GeForce RTX 3070',
   500,
-  'GPU'
+  'GPU',
+  '../../assets/img/GPU/NVIDIA_GeForce_RTX_3070.png'
 )
 const AMD_Radeon_RX_5700_XT = new Component(
   id.generarID(),
   'AMD Radeon RX 5700 XT',
   400,
-  'GPU'
+  'GPU',
+  '../../assets/img/GPU/AMD_Radeon_RX_5700_XT.png'
 )
 const NVIDIA_GeForce_GTX_1660_Super = new Component(
   id.generarID(),
   'NVIDIA GeForce GTX 1660 Super',
   250,
-  'GPU'
+  'GPU',
+  '../../assets/img/GPU/NVIDIA_GeForce_GTX_1660_Super.png'
 )
 const AMD_Radeon_RX_5500_XT = new Component(
   id.generarID(),
   'AMD Radeon RX 5500 XT',
   200,
-  'GPU'
+  'GPU',
+  '../../assets/img/GPU/.png'
 )
 
 export const tarjetasGraficas = [
